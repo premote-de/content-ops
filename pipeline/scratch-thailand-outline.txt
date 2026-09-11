@@ -1,0 +1,13 @@
+# Scratch: H2 outline used for the Thailand article (DE version). Anchor ids are the live German slugs; titles shown in English.
+DE_H2_1_ID=wie-lange-darf-man-ohne-visum-in-thailand-bleiben
+DE_H2_1_TITLE=How long can you stay in Thailand without a visa?
+DE_H2_2_ID=visa-exemption-die-60-tage-regel-im-detail
+DE_H2_2_TITLE=Visa exemption: the 60-day rule in detail
+DE_H2_3_ID=tabelle-visumfrei-vs-destination-thailand-visa-dtv
+DE_H2_3_TITLE=Table: visa-free vs. Destination Thailand Visa (DTV)
+DE_H2_4_ID=destination-thailand-visa-dtv-fuer-remote-worker
+DE_H2_4_TITLE=Destination Thailand Visa (DTV) for remote workers
+DE_H2_5_ID=steuer-und-compliance-risiko-die-180-tage-grenze
+DE_H2_5_TITLE=Tax and compliance risk: the 180-day threshold
+DE_H2_6_ID=faq
+DE_H2_6_TITLE=FAQ

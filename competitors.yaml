@@ -1,0 +1,34 @@
+# Competitor watch — sitemaps/blogs diffed weekly; gaps feed the roadmap.
+# Set from the webentity offer (competitor-b, competitor-c, competitor-a-us.example=Competitor A) + team chat
+# (Competitor D, Competitor E). Engine verifies domains + sitemap paths on first run.
+competitors:
+  - id: competitor-a
+    name: Competitor A (main competitor, anonymized)
+    domains: [www.competitor-a-legacy.example, competitor-a-us.example]
+    watch: [sitemap.xml, blog, glossary, country pages]
+    priority: high
+    status: seed
+  - id: competitor-b
+    name: Competitor B
+    domains: [www.competitor-b.example]
+    watch: [blog, glossary]
+    priority: medium
+    status: seed
+  - id: competitor-c
+    name: Competitor C
+    domains: [competitor-c.example]
+    watch: [blog, country explorer]
+    priority: medium
+    status: seed
+  - id: competitor-d
+    name: Competitor D
+    domains: [competitor-d.example]
+    watch: [blog]
+    priority: low
+    status: seed
+  - id: competitor-e
+    name: Competitor E
+    domains: [competitor-e.example]
+    watch: [blog, workation content]
+    priority: medium
+    status: seed

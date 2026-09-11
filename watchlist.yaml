@@ -1,0 +1,52 @@
+# Source watchlist — crawled on schedule, diffed against snapshots/.
+# status: seed = added from the 2026-05 webentity offer scope; the engine must
+# verify each URL on first crawl and correct/annotate it (never trust blindly).
+# Add sources via Slack; PDFs go to snapshots/uploads/ and get an entry here.
+defaults:
+  frequency: weekly
+  type: html
+sources:
+  - id: eu-posted-workers
+    url: https://employment-social-affairs.ec.europa.eu/policies-and-activities/moving-working-europe/working-another-eu-country/posted-workers_en
+    topics: [pwd, posting]
+    country: EU
+    status: active
+  - id: your-europe-posted-workers
+    url: https://europa.eu/youreurope/business/human-resources/posted-workers/
+    topics: [pwd, posting]
+    country: EU
+    status: dead
+    annotation: "404 Not Found as of 2026-08-21"
+  - id: dvka-a1
+    url: https://www.dvka.de
+    topics: [a1, social-security]
+    country: DE
+    frequency: daily
+    status: active
+  - id: bmas
+    url: https://www.bmas.de
+    topics: [labor-law, posting]
+    country: DE
+    status: active
+  - id: zoll-milog
+    url: https://www.zoll.de
+    topics: [minimum-wage, posting]
+    country: DE
+    status: active
+  - id: cleiss-fr
+    url: https://www.cleiss.fr
+    topics: [social-security, a1]
+    country: FR
+    status: active
+  - id: kpmg-posted-workers-guide
+    url: null   # yearly PDF — upload the latest edition via Slack
+    type: pdf
+    topics: [pwd, social-security, tax]
+    country: multi
+    status: awaiting-upload
+  - id: ey-worldwide-tax-guide
+    url: null   # yearly PDF — upload the latest edition via Slack
+    type: pdf
+    topics: [tax]
+    country: multi
+    status: awaiting-upload
